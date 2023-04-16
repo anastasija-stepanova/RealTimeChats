@@ -13,3 +13,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/', [\App\Http\Controllers\MessageController::class, 'index']);
+Route::post('/messages', [\App\Http\Controllers\MessageController::class, 'sendMessage']);
