@@ -39,5 +39,6 @@
 <script>
     window.csrfToken = '{{ csrf_token() }}';
 </script>
+@vite(['resources/js/app.js'])
 </body>
 </html>
